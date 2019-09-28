@@ -8,11 +8,11 @@
 <body>
 	<div id="root">
 		<div>{{first}} 곱하기 {{second}} 는?</div>
-		<form v-on:submit="onSubmitForm">
+		<form v-on:submit="onSubmitButton">
 			<input type="number" ref="answer" v-model="value">
 			<button type="submit">입력</button>
 		</form>
-		<div id="result"> {{value}} </div>
+		<div id="result"> {{result}} </div>
 	</div>
 </body>
 
