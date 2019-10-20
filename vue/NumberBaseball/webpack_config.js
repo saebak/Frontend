@@ -1,4 +1,4 @@
-const VueLoaderPlugin = require(id:'vue-loader/lib/plugin');
+const VueLoaderPlugin = require(id,'vue-loader/lib/plugin');
 const path = require('path');
 
 module.exports = {
